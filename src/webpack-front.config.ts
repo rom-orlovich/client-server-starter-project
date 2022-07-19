@@ -14,6 +14,7 @@ const config: webpack.Configuration = {
     static: {
       directory: path.resolve(__dirname, "../", "public/client"),
     },
+
     port: "3000",
     client: {
       overlay: { errors: true, warnings: true },
